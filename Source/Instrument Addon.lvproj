@@ -45,6 +45,9 @@
 			<Item Name="Protocol Parent" Type="Folder">
 				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 			</Item>
+			<Item Name="RS-xxx to  GPIB ConvBox" Type="Folder">
+				<Item Name="RS-xxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox.lvclass"/>
+			</Item>
 			<Item Name="RSxxx" Type="Folder">
 				<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
 			</Item>
@@ -59,8 +62,11 @@
 			</Item>
 			<Item Name="Clear Errors.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+			<Item Name="Space Constant.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 		</Item>
 		<Item Name="Protections.lvlibp" Type="LVLibp" URL="../Protections.lvlibp">
 			<Item Name="Checksum U8.lvclass" Type="LVClass" URL="../Protections.lvlibp/Checksum U8/Checksum U8.lvclass"/>
@@ -182,6 +188,9 @@
 				<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
 				<Item Name="NIVS Hardware Discovery.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Hardware Resource Discovery/NIVS Hardware Discovery.lvlib"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
+				<Item Name="VeriStand Comm.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NIVS Addon Network Comm/Engine/VeriStand Comm.lvclass"/>
+				<Item Name="Close Comm Refs.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Addon Network Comm/Engine/Process/Close Comm Refs.vi"/>
+				<Item Name="Initialize Comm Refs.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Addon Network Comm/Engine/Process/Initialize Comm Refs.vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -818,6 +827,9 @@
 			<Item Name="Protocol Parent" Type="Folder">
 				<Item Name="Protocol Parent.lvclass" Type="LVClass" URL="../Protocols.lvlibp/Protocol Parent/Protocol Parent.lvclass"/>
 			</Item>
+			<Item Name="RS-xxx to  GPIB ConvBox" Type="Folder">
+				<Item Name="RS-xxx to GPIB ConvBox.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS-xxx to GPIB ConvBox/RS-xxx to GPIB ConvBox.lvclass"/>
+			</Item>
 			<Item Name="RSxxx" Type="Folder">
 				<Item Name="RS-xxx.lvclass" Type="LVClass" URL="../Protocols.lvlibp/RS-xxx/RS-xxx.lvclass"/>
 			</Item>
@@ -832,8 +844,11 @@
 			</Item>
 			<Item Name="Clear Errors.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Clear Errors.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="GPIB Status Boolean Array.ctl" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/GPIB Status Boolean Array.ctl"/>
 			<Item Name="nirviCommon.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/express/rvi/timingcommon/nirviCommon.vi"/>
+			<Item Name="Space Constant.vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 			<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+			<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="../Protocols.lvlibp/1abvi3w/vi.lib/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -841,6 +856,7 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Close Comm Refs.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Addon Network Comm/Engine/Process/Close Comm Refs.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
@@ -860,6 +876,7 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Initialize Comm Refs.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Addon Network Comm/Engine/Process/Initialize Comm Refs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -882,6 +899,7 @@
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
 				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="VeriStand Comm.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/NIVS Addon Network Comm/Engine/VeriStand Comm.lvclass"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>

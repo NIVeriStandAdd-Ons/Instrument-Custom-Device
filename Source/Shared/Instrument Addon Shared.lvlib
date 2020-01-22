@@ -22,6 +22,7 @@
 			<Item Name="Endian.ctl" Type="VI" URL="../Types/Endian.ctl"/>
 			<Item Name="External Trigger Refs.ctl" Type="VI" URL="../Types/External Trigger Refs.ctl"/>
 			<Item Name="FG Control.ctl" Type="VI" URL="../Types/FG Control.ctl"/>
+			<Item Name="GPIB ConvBox Settings.ctl" Type="VI" URL="../Types/GPIB ConvBox Settings.ctl"/>
 			<Item Name="Instrument Protocol Enum.ctl" Type="VI" URL="../Types/Instrument Protocol Enum.ctl"/>
 			<Item Name="Linked Channel Cluster.ctl" Type="VI" URL="../Types/Linked Channel Cluster.ctl"/>
 			<Item Name="Message Generation Type.ctl" Type="VI" URL="../Types/Message Generation Type.ctl"/>
@@ -46,6 +47,7 @@
 		<Item Name="Decimation FG.vi" Type="VI" URL="../Decimation FG.vi"/>
 		<Item Name="Get Protection List.vi" Type="VI" URL="../Get Protection List.vi"/>
 		<Item Name="Get Protocol List.vi" Type="VI" URL="../Get Protocol List.vi"/>
+		<Item Name="GPIB ConvBox Protocol FG.vi" Type="VI" URL="../GPIB ConvBox Protocol FG.vi"/>
 		<Item Name="Lookup Base Protection Class.vi" Type="VI" URL="../Lookup Base Protection Class.vi"/>
 		<Item Name="Lookup Base Protocol Class.vi" Type="VI" URL="../Lookup Base Protocol Class.vi"/>
 		<Item Name="Message Parameters FG.vi" Type="VI" URL="../Message Parameters FG.vi"/>
