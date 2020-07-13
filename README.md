@@ -1,3 +1,7 @@
+Archived.
+
+Latest: https://github.com/ni/niveristand-instrument-addon-custom-device
+
 Instrument-Addon
 ========================
 
